@@ -123,7 +123,7 @@ export function useApplePay({
   const presentApplePay = useCallback(
     async (params: ApplePay.PresentParams) => {
       setLoading(true);
-      setItems(params.cartItems);
+      // setItems(params.cartItems);
       const result = await _presentApplePay(params);
       if (result.error) {
         setItems(null);

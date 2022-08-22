@@ -91,7 +91,7 @@ export type RecurringCartSummaryItem = {
 };
 
 export interface PresentParams {
-  cartItems: CartSummaryItem[];
+  // cartItems: CartSummaryItem[];
   country: string;
   currency: string;
   requiredShippingAddressFields?: ContactFieldsType[];
